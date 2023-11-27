@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <link rel="stylesheet" href="./css/essaie.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.4.2-web/fontawesome-free-6.4.2-web/css/all.css">
+</head>
+<body>
+    
+    <main class="carousel">
+        <button class="carousel_btn carousel_btn--left is-hidden">
+            <i class="fas fa-angle-double-left"></i>
+        </button>
+
+        <div class="carousel__track-container">
+            <ul class="carousel__track">
+                <li class="carousel_slide img-current-slide">
+                    <img class="carousel_image" src="https://source.unsplash.com/category/travel/400x400" loading="lazy" alt="">
+                </li>
+                <li class="carousel_slide">
+                    <img class="carousel_image" src="https://source.unsplash.com/category/people/400x400" loading="lazy" alt="">
+                </li>
+                <li class="carousel_slide">                
+                    <img class="carousel_image" src="https://source.unsplash.com/category/nature/400x400" loading="lazy" alt="">
+                </li>
+                <li class="carousel_slide">                
+                    <img class="carousel_image" src="https://source.unsplash.com/category/food/400x400" loading="lazy" alt="">
+                </li>
+                <li class="carousel_slide">
+                    <img class="carousel_image" src="https://source.unsplash.com/category/business/400x400" loading="lazy" alt=""></li>
+                </li>
+                <li class="carousel_slide">
+                    <img class="carousel_image" src="https://source.unsplash.com/category/health/400x400" loading="lazy" alt="">
+                </li>
+            </ul>
+        </div>
+
+        <button class="carousel_btn carousel_btn--right">
+            <i class="fas fa-angle-double-right"></i>
+        </button>
+
+        <div class="carousel__nav">
+            <button class="carousel__indicator nav_current-slide"></button>
+            <button class="carousel__indicator"></button>
+            <button class="carousel__indicator"></button>
+            <button class="carousel__indicator"></button>
+            <button class="carousel__indicator"></button>
+            <button class="carousel__indicator"></button>
+        </div>
+    </main>
+
+    <script src="/js/essaie.js"></script>
+</body>
+</html>
